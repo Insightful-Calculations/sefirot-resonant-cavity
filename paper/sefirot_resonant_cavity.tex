@@ -61,7 +61,7 @@ with irreducible characteristic polynomials in each sector. The highest
 Laplacian eigenvector concentrates $86.7\%$ of its squared mass at the unique
 degree-8 hub, Tiferet---exceeding any Dynkin diagram or random graph of the
 same order (Theorems~\ref{thm:pf-concentration}--\ref{thm:bimodal}). This
-concentration is bimodal: every other mode carries less than $10\%$ at Tiferet,
+concentration is bimodal: every other mode carries at most $10\%$ at Tiferet,
 with no intermediate values. The $\bbZ_2$ symmetry is isomorphic to isospin
 inversion in the quark model (Theorem~\ref{thm:z2-isospin}), and severing the
 three cross-pillar edges drops every odd eigenvalue by exactly $2$---a
@@ -1155,11 +1155,27 @@ to existing nodes and their weights), the $5$-edge Tiferet-linked coupling
 \begin{equation}
 \{\text{Daat--Chokhmah, Daat--Binah, Daat--Chesed, Daat--Gevurah, Daat--Tiferet}\}
 \end{equation}
-uniquely maximizes the Tiferet eigenvector concentration (from $86.7\%$ to
-$88.6\%$) while preserving $\bbZ_2$ parity structure. The critical
-coupling weight is $w_c \approx 1.7752$ (transcendental): for $w < w_c$,
-Daat amplifies the cavity; for $w > w_c$, Daat begins to absorb spectral
-mass from Tiferet.
+uniquely maximizes the Tiferet eigenvector concentration while preserving
+$\bbZ_2$ parity structure. Three distinct coupling thresholds govern the
+Daat--Tiferet interaction:
+\begin{enumerate}[leftmargin=*,label=\textup{(\roman*)}]
+\item $w^* \approx 1.035$: the \emph{optimal weight}, at which Tiferet
+  concentration peaks at $88.6\%$---a net gain of $1.9$ percentage points
+  above the no-Daat baseline of $86.7\%$.
+\item $w \approx 1.358$: the \emph{baseline-crossing threshold}, above which
+  the Daat-augmented graph yields \emph{lower} Tiferet concentration than
+  the no-Daat graph. For $w > 1.358$, adding Daat coupling makes Tiferet
+  worse, not better.
+\item $w_c \approx 1.7752$: the \emph{50\%-crossover weight} (algebraic fixed
+  point), at which Tiferet concentration falls to exactly $50\%$. $w_c$ is
+  a root of a degree-$7$ polynomial with integer coefficients; numerical
+  evidence suggests it is transcendental (no relation found to any known
+  algebraic number of degree $\le 30$).
+\end{enumerate}
+The amplification window is therefore $w \in (0, 1.358)$; for $w > 1.358$
+Daat already absorbs spectral mass from Tiferet. At $w = w_c \approx 1.7752$
+the crossover reaches $50\%$; beyond this point Daat dominates the
+Perron--Frobenius eigenvector.
 \end{theorem}
 
 In the catastrophic limit of full-complement coupling (Daat connected to
@@ -1168,20 +1184,18 @@ completely inverting the cavity structure.
 
 The $5$-edge coupling is $\bbZ_2$-symmetric by construction
 (Chokhmah--Binah and Chesed--Gevurah are conjugate pairs; Tiferet is a
-fixed point), consistent with Design Rule~1. The critical weight $w_c$ is
-a root of a degree-$7$ polynomial with integer coefficients and is
-therefore algebraic but not rational; numerical evidence suggests it is
-transcendental (no relation found to any known algebraic number of degree
-$\le 30$).
+fixed point), consistent with Design Rule~1.
 
 \paragraph{Architectural interpretation.}
-Daat functions as a \emph{feedback amplifier} in the weak-coupling regime:
-it receives cross-cutting analytics from both pillars (via the
+Daat functions as a \emph{feedback amplifier} only for weak coupling
+$w < 1.358$: it receives cross-cutting analytics from both pillars (via the
 Chokhmah--Binah and Chesed--Gevurah pairs) and feeds the synthesized
-signal back to Tiferet, reinforcing the cavity. The critical weight $w_c$
-is the threshold beyond which the amplifier saturates and begins to
-compete with Tiferet for spectral centrality---a concrete warning against
-over-instrumenting analytics in a governance system.
+signal back to Tiferet, reinforcing the cavity. The optimal operating point
+$w^* \approx 1.035$ balances amplification gain against the onset of
+competition. The baseline-crossing threshold $w \approx 1.358$---not the
+50\%-crossover $w_c \approx 1.7752$---is the practically relevant warning
+boundary: beyond it, over-instrumenting analytics actively degrades
+governance concentration.
 
 \subsection{Robustness and failure modes}
 \label{sec:robustness}
@@ -1260,8 +1274,9 @@ hub---as a discrete resonant cavity. The principal results are:
 
 \item \emph{Optimal Daat Coupling} (Theorem~\ref{thm:daat}): The
   Tiferet-linked $5$-edge coupling uniquely maximizes cavity concentration
-  while preserving $\bbZ_2$ structure, with a critical weight
-  $w_c \approx 1.7752$.
+  (to $88.6\%$ at optimal weight $w^* \approx 1.035$) while preserving
+  $\bbZ_2$ structure. The amplification window closes at $w \approx 1.358$
+  (baseline-crossing); the 50\%-crossover is $w_c \approx 1.7752$.
 \end{enumerate}
 
 These results establish that the sefirot graph's governance properties---
