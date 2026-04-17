@@ -1,0 +1,31 @@
+{
+  "title": "The Sefirot Graph as Resonant Cavity: Spectral Theory of a 10-Node Governance Architecture",
+  "description": "Spectral analysis of a specific 10-node, 22-edge graph with Z2 pillar symmetry. Proves 9 theorems covering Z2 parity decomposition, 86.7% Perron-Frobenius concentration at Tiferet, bimodal mode structure, Z2-isospin isomorphism, cross-coupling rank, Goldstone drop-by-2, complement duality (λ̄=10-λ), unique maximum equal-density bisection, and optimal Daat coupling. Applications to multi-agent governance architecture with institutional convergence validation.",
+  "creators": [
+    {
+      "name": "Reynisson, Hróar Þór",
+      "affiliation": "Technological Institute of Iceland (IceTec)",
+      "orcid": "0009-0003-6518-121X"
+    }
+  ],
+  "upload_type": "publication",
+  "access_right": "open",
+  "license": "CC-BY-SA-4.0",
+  "keywords": [
+    "spectral graph theory",
+    "graph Laplacian",
+    "eigenvector concentration",
+    "multi-agent systems",
+    "governance architecture",
+    "Z2 symmetry",
+    "isospin",
+    "complement graph",
+    "graph bisection",
+    "Perron-Frobenius",
+    "open science"
+  ],
+  "related_identifiers": [],
+  "language": "eng",
+  "version": "1",
+  "publication_type": "article"
+}

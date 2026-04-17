@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: >-
+  If you use this research, please cite it as below.
+  This work is freely available under dual license:
+  AGPL-3.0 (code) + CC BY-SA 4.0 (paper/data).
+title: "The Sefirot Graph as Resonant Cavity: Spectral Theory of a 10-Node Governance Architecture"
+abstract: >-
+  Spectral analysis of a specific 10-node, 22-edge graph (sefirot graph)
+  with Z2 pillar symmetry. Proves: Z2 parity decomposition into 7-dim even
+  and 3-dim odd sectors with irreducible characteristic polynomials;
+  Perron-Frobenius concentration of 86.7% at Tiferet (degree-8 hub),
+  exceeding any Dynkin diagram or random graph; bimodal concentration with
+  no intermediate weights; Z2-isospin isomorphism with exact dim V_minus
+  = 3 = 2I+1; cross-coupling rank 3 = #Z2 pairs; Goldstone drop-by-2 as
+  discrete GMOR analogue; complement duality lambda_bar_i = 10 - lambda_i;
+  unique maximum equal-density bisection at 0.60; optimal Daat coupling
+  (5-edge Tiferet-linked, w_c approx 1.7752). Applications to multi-agent
+  governance with institutional convergence validation (Anthropic,
+  Microsoft, Augment, IAIFI). Honest limitations stated: eigenvalue ratios
+  do not match meson mass ratios; consciousness threshold is algebraically
+  independent.
+authors:
+  - family-names: "Reynisson"
+    given-names: "Hróar Þór"
+    affiliation: "Technological Institute of Iceland (IceTec)"
+    orcid: "https://orcid.org/0009-0003-6518-121X"
+type: article
+license: CC-BY-SA-4.0
+version: "1"
+date-released: "2026-04-17"
+repository-code: "https://github.com/Insightful-Calculations/sefirot-resonant-cavity"
+keywords:
+  - spectral graph theory
+  - graph Laplacian
+  - eigenvector concentration
+  - multi-agent systems
+  - governance architecture
+  - Z2 symmetry
+  - isospin
+  - quark model
+  - complement graph
+  - graph bisection
+  - Perron-Frobenius
